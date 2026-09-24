@@ -1,16 +1,17 @@
-# Manisha Chaudhari — IT Infrastructure Portfolio
+# MCSA-P01 — New Office Infrastructure
 
-GitHub-ready portfolio for Windows Server, Active Directory, networking, and infrastructure lab projects.
+## Scope
+Windows Server 2016 training/lab project covering centralized identity, name/address services, file access, policy, backup, and basic security controls.
 
-## Projects
-- **MCSA-P01 — New Office Infrastructure:** AD DS, DNS, DHCP, SMB/NTFS, Group Policy, Backup, Firewall/Event Logs.
-- **MCSA-P02 — Controlled Document Centre:** FSRM quotas, file screening, DFS Namespace, DFS Replication, SMB, Backup/Restore.
-- **MCSA-P05 — Remote Employee Access:** RRAS VPN, L2TP/IPsec, routing, dial-in access, DNS/SMB over VPN, RDP/NLA, firewall validation.
+## Key Work
+- Active Directory Domain Services
+- DNS and DHCP
+- Domain joining
+- Users and security groups
+- SMB shares and NTFS permissions
+- Group Policy
+- Windows Server Backup and restore
+- Firewall and event-log validation
 
-## GitHub Pages
-Go to **Settings → Pages → Deploy from a branch → main → /(root) → Save**.
-
-## Evidence
-The project screenshot folders are ready for adding your own lab screenshots.
-
-> These are training/lab simulations based on the supplied workbooks. Present them as hands-on lab projects, not production employment experience or an earned MCSA certification.
+## Screenshot Suggestions
+`01-domain-controller.png`, `02-ad-users-groups.png`, `03-dns.png`, `04-dhcp.png`, `05-share-permissions.png`, `06-ntfs-permissions.png`, `07-group-policy.png`, `08-backup.png`, `09-restore-test.png`, `10-event-logs.png`
