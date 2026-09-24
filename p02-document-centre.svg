@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="600" viewBox="0 0 1100 600">
+<rect width="1100" height="600" fill="#07111f"/>
+<style>
+text{font-family:Arial,sans-serif;fill:#dbeafe}
+.box{fill:#111827;stroke:#38bdf8;stroke-width:2;rx:12}
+.line{stroke:#64748b;stroke-width:2}
+.title{font-size:24px;font-weight:700}
+.label{font-size:16px;font-weight:700}
+.small{font-size:13px;fill:#94a3b8}
+</style>
+<text x="550" y="45" text-anchor="middle" class="title">P02 — Controlled Document Centre</text>
+<rect x="80" y="120" width="250" height="130" class="box"/>
+<text x="205.0" y="155" text-anchor="middle" class="label">AST-FS01</text>
+<text x="205.0" y="182" text-anchor="middle" class="small">Primary file server</text>
+<text x="205.0" y="203" text-anchor="middle" class="small">SMB shares</text>
+<rect x="425" y="120" width="250" height="130" class="box"/>
+<text x="550.0" y="155" text-anchor="middle" class="label">DFS Namespace</text>
+<text x="550.0" y="182" text-anchor="middle" class="small">Stable published path</text>
+<text x="550.0" y="203" text-anchor="middle" class="small">Two targets</text>
+<rect x="770" y="120" width="250" height="130" class="box"/>
+<text x="895.0" y="155" text-anchor="middle" class="label">AST-FS02</text>
+<text x="895.0" y="182" text-anchor="middle" class="small">FSRM</text>
+<text x="895.0" y="203" text-anchor="middle" class="small">DFS Replication</text>
+<rect x="425" y="340" width="250" height="110" class="box"/>
+<text x="550.0" y="375" text-anchor="middle" class="label">Validation</text>
+<text x="550.0" y="402" text-anchor="middle" class="small">Quota / screening</text>
+<text x="550.0" y="423" text-anchor="middle" class="small">Replication / restore</text>
+<line x1="330" y1="185" x2="425" y2="185" class="line"/>
+<line x1="675" y1="185" x2="770" y2="185" class="line"/>
+<line x1="550" y1="250" x2="550" y2="340" class="line"/>
+<text x="550" y="560" text-anchor="middle" class="small">Training/lab architecture based on the supplied project workbooks.</text></svg>

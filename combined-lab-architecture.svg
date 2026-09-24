@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="600" viewBox="0 0 1100 600">
+<rect width="1100" height="600" fill="#07111f"/>
+<style>
+text{font-family:Arial,sans-serif;fill:#dbeafe}
+.box{fill:#111827;stroke:#38bdf8;stroke-width:2;rx:12}
+.line{stroke:#64748b;stroke-width:2}
+.title{font-size:24px;font-weight:700}
+.label{font-size:16px;font-weight:700}
+.small{font-size:13px;fill:#94a3b8}
+</style>
+<text x="550" y="45" text-anchor="middle" class="title">Combined IT Infrastructure Lab Architecture</text>
+<rect x="60" y="100" width="270" height="140" class="box"/>
+<text x="195.0" y="135" text-anchor="middle" class="label">AST-DC01</text>
+<text x="195.0" y="162" text-anchor="middle" class="small">AD DS / DNS / DHCP</text>
+<text x="195.0" y="183" text-anchor="middle" class="small">Group Policy</text>
+<text x="195.0" y="204" text-anchor="middle" class="small">Core identity services</text>
+<rect x="415" y="100" width="270" height="140" class="box"/>
+<text x="550.0" y="135" text-anchor="middle" class="label">AST-FS01</text>
+<text x="550.0" y="162" text-anchor="middle" class="small">SMB / NTFS</text>
+<text x="550.0" y="183" text-anchor="middle" class="small">Department shares</text>
+<text x="550.0" y="204" text-anchor="middle" class="small">P01 / P05 file access</text>
+<rect x="770" y="100" width="270" height="140" class="box"/>
+<text x="905.0" y="135" text-anchor="middle" class="label">AST-FS02</text>
+<text x="905.0" y="162" text-anchor="middle" class="small">FSRM</text>
+<text x="905.0" y="183" text-anchor="middle" class="small">DFS Namespace / Replication</text>
+<text x="905.0" y="204" text-anchor="middle" class="small">P02 document centre</text>
+<rect x="60" y="350" width="270" height="120" class="box"/>
+<text x="195.0" y="385" text-anchor="middle" class="label">AST-BK01</text>
+<text x="195.0" y="412" text-anchor="middle" class="small">Windows Server Backup</text>
+<text x="195.0" y="433" text-anchor="middle" class="small">Recovery / Restore</text>
+<rect x="415" y="350" width="270" height="120" class="box"/>
+<text x="550.0" y="385" text-anchor="middle" class="label">AST-CL01</text>
+<text x="550.0" y="412" text-anchor="middle" class="small">Domain client</text>
+<text x="550.0" y="433" text-anchor="middle" class="small">Validation / user testing</text>
+<rect x="770" y="350" width="270" height="120" class="box"/>
+<text x="905.0" y="385" text-anchor="middle" class="label">Remote User</text>
+<text x="905.0" y="412" text-anchor="middle" class="small">RRAS VPN</text>
+<text x="905.0" y="433" text-anchor="middle" class="small">L2TP/IPsec / RDP NLA</text>
+<line x1="330" y1="170" x2="415" y2="170" class="line"/>
+<line x1="685" y1="170" x2="770" y2="170" class="line"/>
+<line x1="195" y1="240" x2="195" y2="350" class="line"/>
+<line x1="550" y1="240" x2="550" y2="350" class="line"/>
+<line x1="905" y1="240" x2="905" y2="350" class="line"/>
+<text x="550" y="560" text-anchor="middle" class="small">Training/lab architecture based on the supplied project workbooks.</text></svg>
