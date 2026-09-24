@@ -1,18 +1,17 @@
-# MCSA-P02 — Controlled Document Centre
+# MCSA-P05 — Remote Employee Access
 
 ## Scope
-Windows Server 2016 training/lab project focused on storage control, stable document publishing, and file-server redundancy.
+Windows Server 2016 training/lab project for controlled remote access to internal resources without exposing RDP directly to the simulated WAN.
 
 ## Key Work
-- Second file server
-- File Server Resource Manager (FSRM)
-- Storage quotas
-- File screening
-- Intake and published shares
-- DFS Namespace
-- DFS Replication
-- Replication/convergence validation
-- Backup and restore
+- RRAS remote access VPN
+- L2TP over IPsec
+- Routing and return paths
+- Dial-in access
+- DNS/SMB access over VPN
+- RDP with Network Level Authentication (NLA)
+- Firewall controls
+- Access and revocation validation
 
 ## Screenshot Suggestions
-`01-fsrm-role.png`, `02-quota.png`, `03-file-screening.png`, `04-shares.png`, `05-dfs-namespace.png`, `06-dfs-targets.png`, `07-dfs-replication.png`, `08-replication-test.png`, `09-backup.png`, `10-restore-test.png`
+`01-rras-role.png`, `02-vpn-server.png`, `03-ipsec-settings.png`, `04-dial-in-access.png`, `05-routing.png`, `06-vpn-client.png`, `07-dns-over-vpn.png`, `08-smb-over-vpn.png`, `09-rdp-nla.png`, `10-firewall.png`, `11-access-revocation-test.png`
